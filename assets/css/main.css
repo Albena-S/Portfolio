@@ -2631,3 +2631,13 @@ input, select, textarea {
 				}
 
 	}
+
+
+
+	.resume .details{
+		display: none;
+	}
+
+	.resume:hover .details{
+		display: block;
+	}
