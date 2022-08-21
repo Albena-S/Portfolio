@@ -28,23 +28,24 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#projects" id="projects-link"><span class="icon solid fa-th">Projects</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">CV</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#projects" id="projects-link"><span class="icon solid fa-th">Projects</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Get In Touch</span></a></li>
 							</ul>
 						</nav>
-
+						<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+						<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+						<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+						<link rel="manifest" href="images/icons/site.webmanifest">
 				</div>
 
 				<div class="bottom">
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://removal.ai/upload/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
@@ -59,22 +60,45 @@
 					<section id="top" class="one dark cover" >
 						<div class="container">
 
-							<header style="visibility: hidden;">
-								<h2 class="alt">Albena STEFANOVA</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+							<header >
+								<h2 class="alt" id="titleInto">Albena STEFANOVA</h2>
+								<!-- <p>Ligula scelerisque justo sem accumsan diam quis<br />
+								vitae natoque dictum sollicitudin elementum.</p> -->
 							</header>
 
-							<!-- <footer> -->
-								<!-- <a href="#projects" class="button scrolly" >Resume</a> -->
-							<!-- </footer> -->
+							<footer>
+								<a href="#projects" class="button scrolly" >
+									<!-- <div> -->
+										<img src="images/download_icon.png" height="1%" width="15%" >
+										CV
+									<!-- </div> -->
+								</a>
+							</footer>
 
 						</div>
 						<!-- <a href="#projects" class="button scrolly" style="position: relative;
 						bottom: -100px;">Resume</a> -->
 					</section>
-					<a href="#projects" class="button scrolly" style="position: relative;
-						bottom: 10px;">Resume</a>
+					<!-- <a href="#projects" class="button scrolly" style="position: relative;
+						bottom: 10px;">Resume</a> -->
+						
+					<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>Write about motivations and passion for the 3D and VR.  
+								<br>Details about the master's degree.
+								<br>Write about aspirations.
+							</p>
+
+						</div>
+					</section>
 
 				<!-- Projects -->
 					<section id="projects" class="two">
@@ -90,30 +114,59 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item resume" id="gameEngine">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/equilibrium.png" alt="" /></a>
 										<header>
 											<h3>Equilibrium Game Engine</h3>
 										</header>
 										<div class="details">
-											hey
+											Equilibrium is an original Physics based Game Engine,allowing users to freely create simple or more complicated game levels.
+											It proposes the base input, phusics and graphic systems but is also highly customizale. The engine itself is written on C++ and using OpenGL libraries.
+											<br>Full demonstration video : <a href="https://www.youtube.com/watch?v=XBmK8kLA0Nc&ab_channel=AlbenaStefanova"> A simple level created on Equilibrium Game Engine</a>
 										</div>
 									</article>
 									<article class="item resume">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/cpp.png" alt="" /></a>
 										<header>
 											<h3>Catchy Punchy Punch</h3>
 										</header>
 										<div class="details">
-											hey
+											CPP is a rhythmic game dictated by the arrival of enemies. Its 2.5D arcade style imposes the main goal of the game: survive as long as possible!
+											<br> The game is written on Unity and the source code is on <a href="https://github.com/DorianGerardin/TER_M1_Blank/tree/master"> GitHub</a>.
+										</div>
+									</article>
+									<article class="item resume">
+										<a href="#" class="image fit"><img src="images/habitimia.jpg" alt="" /></a>
+										<header>
+											<h3>HabitiMia</h3>
+										</header>
+										<div class="details">
+											<i>Gamify your life!</i><br>
+											HabitiMia is a mobile application for habits and productivity, allowing the user to set up tasks and complete them just like quests in a game, but in real life. <br>
+											Full demonstration video : <a href="https://www.youtube.com/watch?v=Oa8P-l-KztE&t=6s&ab_channel=AlbenaStefanova"> HabitiMia</a>
 										</div>
 									</article>
 								</div>
 								<div class="col-4 col-12-mobile">
-									<article class="item">
+									<article class="item resume">
 										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
 										<header>
 											<h3>Facial Recognition System</h3>
 										</header>
+										<div class="details">
+											This project proposes a facial recognition system with three different complexities : 
+											<ul>
+												<li>
+													ligthweigth real-time recognition with lesser quality of recognition
+												</li>
+												<li>
+													fast and accurate real-time recognition
+												</li>
+												<li>
+													highly fairly accurate image based recognition
+												</li>
+											</ul>
+											Full demonstration video : <a href="https://clipchamp.com/watch/9s5ld8cO0KF"> Clipchamp</a>
+										</div>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
@@ -142,12 +195,7 @@
 												<h3>Machine Learning</h3>
 											</header>
 										</article>
-										<article class="item">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<header>
-												<h3>Habitimia</h3>
-											</header>
-										</article>
+										
 									
 								</div>
 							</div>
@@ -155,23 +203,6 @@
 						</div>
 					</section>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>Write about motivations and passion for the 3D and VR.  
-								<br>Details about the master's degree.
-								<br>Write about aspirations.
-							</p>
-
-						</div>
-					</section>
 
 				<!-- Contact -->
 					<section id="contact" class="four">
