@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html', './**/**/*.js'],
+  content: ['./**/*.html', './**/**/*.js'],
   darkMode: 'media', // or 'class'
   theme: {
     extend: {},
@@ -14,8 +14,8 @@ module.exports = {
     preflight: true,
   },
   // Specify input and output file paths
-  input: './style.css',
-  output: './css/style.css',
+  input: './docs/input.css',
+  output: './dist/style.css',
 };
 
 
