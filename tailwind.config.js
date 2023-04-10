@@ -15,7 +15,7 @@ module.exports = {
   },
   // Specify input and output file paths
   input: './docs/input.css',
-  output: './dist/style.css',
+  output: './docs/dist/output.css',
 };
 
 
